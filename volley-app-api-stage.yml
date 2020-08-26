@@ -8,9 +8,6 @@ spring:
                 format_sql: true
         show-sql: true
     datasource:
-        url: jdbc:mysql://localhost:3306/volleyapp_db?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
-        username: root
-        password: root
         initialization-mode: always
     liquibase:
         change-log: classpath:db/changelog/db_changelog.xml
